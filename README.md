@@ -27,8 +27,8 @@
 To deploy the application to a production server, you can follow these steps:
 1. Set up a new server with PHP and MySQL installed.
 2. Clone the repository to the server:
-   
-       git clone https://github.com/your-username/your-repo.git
+
+        git clone  https://github.com/moaaz97/Coalition-Assignment.git
 3. Install the required dependencies using Composer:
 
        composer install --no-dev --optimize-autoloader 
