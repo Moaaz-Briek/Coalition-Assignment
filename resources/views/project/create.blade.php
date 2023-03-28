@@ -8,7 +8,7 @@
                     <a class="btn btn-secondary ms-4" href = "{{url('projects/')}}">Back</a>
                 </div>
             </div>
-            <form action="{{url('projects/store')}}" method="post">
+            <form action="{{url('projects/create')}}" method="post">
                 @csrf
                 <div class="mb-3">
                     <label for="name" class="form-label">Project Name</label>

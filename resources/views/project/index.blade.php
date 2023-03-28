@@ -5,7 +5,7 @@
             <div class="d-flex justify-content-between col align-self-start align-items-center pt-3 pb-2 mb-5 border-bottom">
                 <h2 class="text-black-50">Project Management</h2>
                 <div>
-                    <a href="{{url('projects/create')}}" class="btn btn-primary">Create A Project</a>
+                    <a href="{{url('projects/show')}}" class="btn btn-primary">Create A Project</a>
                     <a href="{{url('tasks/')}}" class="btn btn-secondary">Back</a>
                 </div>
             </div>

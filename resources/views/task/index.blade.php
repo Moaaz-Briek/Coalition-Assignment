@@ -5,7 +5,7 @@
             <div class="d-flex justify-content-between col align-self-start align-items-center pt-3 pb-2 mb-5 border-bottom">
                 <h2 class="text-black-50">Task Management</h2>
                 <div>
-                    <a href="{{url('tasks/create')}}" class="btn btn-primary">Create A Task</a>
+                    <a href="{{url('tasks/show')}}" class="btn btn-primary">Create A Task</a>
                     <a href="{{url('projects/')}}" class="btn btn-secondary">Manage Projects</a>
                 </div>
             </div>
