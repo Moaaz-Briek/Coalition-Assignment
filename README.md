@@ -1,7 +1,7 @@
 ## Installation
 1. Clone the repository to the local machine:
 
-        git clone https://github.com/your-username/your-repo.git
+        git clone  https://github.com/moaaz97/Coalition-Assignment.git
 2. Install the required dependencies using Composer:
 
         composer install
