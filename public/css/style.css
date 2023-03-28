@@ -1,0 +1,11 @@
+body {
+    background-color: #ffffff;
+}
+
+.table {
+    background-color: #f3f2f2;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+}
