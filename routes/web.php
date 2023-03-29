@@ -18,18 +18,18 @@ Route::get('/', [TaskController::class, 'index']);
 
 Route::prefix('tasks')->group(function () {
     Route::get('', [TaskController::class, 'index'])->name('tasks');
-    Route::get('create', [TaskController::class, 'create']);
+    Route::get('show', [TaskController::class, 'show']);
+    Route::post('create', [TaskController::class, 'create']);
     Route::get('destroy/{id}', [TaskController::class, 'destroy']);
     Route::match(['get', 'post'], 'edit/{id?}', [TaskController::class, 'edit']);
-    Route::post('store', [TaskController::class, 'store']);
     Route::post('reorder', [TaskController::class, 'reorder']);
 });
 
 Route::prefix('projects/')->group(function () {
     Route::get('', [ProjectController::class, 'index'])->name('projects');
-    Route::get('create', [ProjectController::class, 'create']);
+    Route::get('show', [ProjectController::class, 'show']);
+    Route::post('create', [ProjectController::class, 'create']);
     Route::match(['get', 'post'],'edit/{id?}', [ProjectController::class, 'edit']);
     Route::get('delete/{id}', [ProjectController::class, 'delete']);
-    Route::post('store', [ProjectController::class, 'store']);
     Route::post('getProjectTasks', [ProjectController::class, 'getProjectTasksUsingAjax']);
 });
